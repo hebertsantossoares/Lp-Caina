@@ -80,7 +80,8 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
-      E["Sua resposta aqui!"]
+      start((inicio)) --> input1[\ digite N1\]
+   input1 --> input2[\ digite N2\]
    ```
    
 7. Crie um fluxograma que leia três números e determine o maior entre eles.
