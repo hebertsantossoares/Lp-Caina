@@ -71,8 +71,8 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    flowchart TD
       start((inicio)) --> input[\digite sua idade\]
    input --> ver{numero >=16}
-   ver -->|sim| resposta[/pode votar/]
-   ver -->|não| resposta[/não pode votar/]
+   ver -->|sim| resposta1[/pode votar/]
+   ver -->|não| resposta2[/não pode votar/]
    out --> finish([fim])
    ```
    
