@@ -69,7 +69,11 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
-      D["Sua resposta aqui!"]
+      start((inicio)) -->[\digite sua idade\]
+   input --> ver{numero >=16}
+   ver -->|sim| resposta[/pode votar/]
+   ver -->|não| resposta[/não pode votar/]
+   out --> finish([fim])
    ```
    
 6. Crie um fluxograma que leia dois números e determine o maior entre eles.
