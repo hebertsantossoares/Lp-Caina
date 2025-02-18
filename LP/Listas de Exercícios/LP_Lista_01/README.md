@@ -69,7 +69,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
-      start((inicio)) -->[\digite sua idade\]
+      start((inicio)) --> input[\digite sua idade\]
    input --> ver{numero >=16}
    ver -->|sim| resposta[/pode votar/]
    ver -->|não| resposta[/não pode votar/]
