@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 import java.util.Random;
 
@@ -44,3 +45,10 @@ public class Main {
         scanner.close();
     }
 }
+=======
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+>>>>>>> 8a66cc43daf38c5c7ca5fa0e3d674c8a9129ecbf

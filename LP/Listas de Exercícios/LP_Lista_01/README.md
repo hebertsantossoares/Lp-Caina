@@ -90,6 +90,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
 6. Crie um fluxograma que leia dois números e determine o maior entre eles.
    
     ```mermaid
+    ```mermaid
    flowchart TD
       start((inicio)) --> input1[\ digite N1\]
    input1 --> input2[\ digite N2\]
@@ -107,7 +108,22 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
 7. Crie um fluxograma que leia três números e determine o maior entre eles.
 
 ```mermaid
+
+```mermaid
    flowchart TD
+      start((inicio)) --> input1[\ digite N1\] 
+   input1 --> input2[\ digite N2\]
+   input2 --> input3[\ digite N3\]
+   input2 --> resultado1[ resultado = N1 > N2]
+   input2 --> resultado2[ resultado = N1 < N2]
+   input1 --> resultado3[ resultado = N1 < N3]
+   input2 --> resultado3[ resultado = N2 < N3]
+   resultado1 --> resposta1[/N1/]
+   resultado2 --> resposta2[/N2/]
+   resultado3 --> resposta3[/N3/]
+   resposta1 --> finish([fim])
+   resposta2 --> finish
+   resposta3 --> finish
       start((inicio)) --> input1[\ digite N1\] 
    input1 --> input2[\ digite N2\]
    input2 --> input3[\ digite N3\]
@@ -135,6 +151,14 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
       F --> D
       D --> |não| G[/resposta = r/]
       G --> H([final])
+       A((inicio)) --> B[\digite um numero\]
+      B --> C[r=1]
+      C --> D{n>1?}
+      D --> |sim| E[r=r*n]
+      E --> F[n=n-1]
+      F --> D
+      D --> |não| G[/resposta = r/]
+      G --> H([final])
    ```
    
 9. Elabore um fluxograma para verificar se um número digitado pelo usuário é par.
@@ -146,7 +170,15 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    > - 11 % 3 = 2
 
   ```mermaid
+
+  ```mermaid
    flowchart TD
+   A[Início] --> B[Digite um número]
+   B --> C{Número % 2 == 0?}
+   C -- Sim --> D[Exibir: O número é par]
+   C -- Não --> E[Exibir: O número é ímpar]
+   D --> F[Fim]
+   E --> F[Fim]
    A[Início] --> B[Digite um número]
    B --> C{Número % 2 == 0?}
    C -- Sim --> D[Exibir: O número é par]
