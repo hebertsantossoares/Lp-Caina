@@ -2,16 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-      double miles, km;
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner in = new Scanner(System.in);
+        System.out.print("Digite a distância em quilômetros: ");
+        double quilometros = scanner.nextDouble();
 
+        double milhas = quilometros * 0.621371;
 
-        System.out.println("Digite uma distancia em Km: ");
-        km = in.nextDouble();
+        System.out.printf("%.2f km equivalem a %.2f milhas.\n", quilometros, milhas);
 
-        miles = km /1.6;
-        System.out.printf(km = "km = "+ miles + "milhas")
-
+        scanner.close();
     }
 }

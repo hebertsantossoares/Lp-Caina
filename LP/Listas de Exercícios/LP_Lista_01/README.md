@@ -69,6 +69,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
+<<<<<<< HEAD
       start((inicio)) --> input1[\digite sua idade\]
    input1 --> input2[\voce tem titulo?\]
    input2 --> ver1{idade>=16? \n E \n Titulo=sim}
@@ -76,6 +77,13 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    ver1 -->|não| resposta2[/não pode votar/]
    resposta1 --> finish([fim])
    resposta2 --> finish
+=======
+      start((inicio)) --> input[\digite sua idade\]
+   input --> ver{numero >=16}
+   ver -->|sim| resposta1[/pode votar/]
+   ver -->|não| resposta2[/não pode votar/]
+   out --> finish([fim])
+>>>>>>> c91f469f3cbe28aba936ad5bbea6714d1e809a0a
    ```
    
    
@@ -85,12 +93,15 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    flowchart TD
       start((inicio)) --> input1[\ digite N1\]
    input1 --> input2[\ digite N2\]
+<<<<<<< HEAD
    input2 --> resultado1[ resultado = N1 > N2]
    input2 --> resultado2[ resultado = N1 < N2]
    resultado1 --> resposta1[/N1/]
    resultado2 --> resposta2[/N2/]
    resposta1 --> finish([fim])
    resposta2 --> finish
+=======
+>>>>>>> c91f469f3cbe28aba936ad5bbea6714d1e809a0a
    ```
    
 7. Crie um fluxograma que leia três números e determine o maior entre eles.
@@ -147,6 +158,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
+<<<<<<< HEAD
       A((inicio)) --> B[\digite um numero\]
    B --> C[i=n/2]
    C --> D{i>1?}
@@ -158,3 +170,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    F --> I([final])
    H --> I
    ```
+=======
+      I["Sua resposta aqui!"]
+   ```
+>>>>>>> c91f469f3cbe28aba936ad5bbea6714d1e809a0a

@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        double mm, inch;
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner in = new Scanner(System.in);
+        System.out.print("Digite a medida em polegadas: ");
+        double polegadas = scanner.nextDouble();
 
+        double milimetros = polegadas * 25.4;
 
-        System.out.println("Digite uma media em polegadas: ");
-        mm = in.nextDouble();
-        inch = inch * 25.4;
-        System.out.printf(inch +"Digite uma media em mm: ");
+        System.out.printf("%.2f polegadas equivalem a %.2f milímetros.\n", polegadas, milimetros);
 
+        scanner.close();
     }
 }

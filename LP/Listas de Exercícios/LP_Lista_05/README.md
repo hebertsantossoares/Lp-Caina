@@ -36,7 +36,7 @@ Para mais informações acesse [Aula 06: Vetores e Matrizes.](https://cainaantun
     
     > <font color="red"> **Restrição:** utilizar apenas um vetor e uma variável auxiliar </font>
 
-7. Receber uma matriz 5x5 e encontrar a maior soma entre suas colunas e a maior somaentre suas linhas.
+7. Receber uma matriz 5x5 e encontrar a maior soma entre suas colunas e a maior soma entre suas linhas.
 
 8. Declare e inicialize uma matriz 5x5 em seguida exiba sua diagonal principal.
 
