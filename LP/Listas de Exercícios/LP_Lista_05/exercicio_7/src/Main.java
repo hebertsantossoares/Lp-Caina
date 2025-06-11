@@ -1,25 +1,49 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        int[][] vetor = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 14, 15}, {16, 17, 18, 19, 20}, {21, 22, 23, 24, 25}};
+        int[][] matriz = new int[5][5];
 
-        int maiorSomaLinha = 0, maiorSomaColuna = 0;
-
+        // Leitura da matriz 5x5
+        System.out.println("Digite os elementos da matriz 5x5:");
         for (int i = 0; i < 5; i++) {
-            int somaLinha = 0;
-            int somaColuna = 0;
-            for (int j = 0; j < 5; ) {
-                somaLinha += vetor[i][j];
-                somaColuna += vetor[j][i];
-
-            }
-            if (somaLinha > maiorSomaLinha) {
-                maiorSomaLinha += somaLinha;
-            }
-            if (somaColuna > maiorSomaColuna) {
-                maiorSomaLinha += somaColuna;
+            for (int j = 0; j < 5; j++) {
+                System.out.printf("Elemento [%d][%d]: ", i, j);
+                matriz[i][j] = scanner.nextInt();
             }
         }
-        System.out.println("A maior soma das linhas e " + maiorSomaLinha + " A maior soma das colunas" + maiorSomaColuna);
+
+        int maiorSomaLinha = Integer.MIN_VALUE;
+        int maiorSomaColuna = Integer.MIN_VALUE;
+
+        // Cálculo da maior soma das linhas
+        for (int i = 0; i < 5; i++) {
+            int somaLinha = 0;
+            for (int j = 0; j < 5; j++) {
+                somaLinha += matriz[i][j];
+            }
+            if (somaLinha > maiorSomaLinha) {
+                maiorSomaLinha = somaLinha;
+            }
+        }
+
+        // Cálculo da maior soma das colunas
+        for (int j = 0; j < 5; j++) {
+            int somaColuna = 0;
+            for (int i = 0; i < 5; i++) {
+                somaColuna += matriz[i][j];
+            }
+            if (somaColuna > maiorSomaColuna) {
+                maiorSomaColuna = somaColuna;
+            }
+        }
+
+        // Resultados
+        System.out.println("Maior soma entre as linhas: " + maiorSomaLinha);
+        System.out.println("Maior soma entre as colunas: " + maiorSomaColuna);
+
+        scanner.close();
     }
 }

@@ -32,6 +32,6 @@ Para mais informações acesse [Aula 07: Funções e Recursividade.](https://cai
     
     Veja a ilustração a seguir:
 
-    ![alt text](image.png)
+   ![alt text](image.png)
 
 6. <font color="red">**Não há nada tão ruim que não possa piorar!**</font> Refaça todos os exercícios anteriores utilizando recursividade.

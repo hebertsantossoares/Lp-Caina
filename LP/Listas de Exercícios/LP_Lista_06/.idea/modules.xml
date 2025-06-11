@@ -3,12 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LP_Lista_06.iml" filepath="$PROJECT_DIR$/.idea/LP_Lista_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio6-3/exercicio6-3.iml" filepath="$PROJECT_DIR$/exercicio6-3/exercicio6-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio6_1/exercicio6_1.iml" filepath="$PROJECT_DIR$/exercicio6_1/exercicio6_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio6_2/exercicio6_2.iml" filepath="$PROJECT_DIR$/exercicio6_2/exercicio6_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio6_4/exercicio6_4.iml" filepath="$PROJECT_DIR$/exercicio6_4/exercicio6_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio6_5/exercicio6_5.iml" filepath="$PROJECT_DIR$/exercicio6_5/exercicio6_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio_1/exercicio_1.iml" filepath="$PROJECT_DIR$/exercicio_1/exercicio_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio_2/exercicio_2.iml" filepath="$PROJECT_DIR$/exercicio_2/exercicio_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio_3/exercicio_3.iml" filepath="$PROJECT_DIR$/exercicio_3/exercicio_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio_4/exercicio_4.iml" filepath="$PROJECT_DIR$/exercicio_4/exercicio_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio_5/exercicio_5.iml" filepath="$PROJECT_DIR$/exercicio_5/exercicio_5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exercicio_6/exercicio_6.iml" filepath="$PROJECT_DIR$/exercicio_6/exercicio_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercico6_3/exercico6_3.iml" filepath="$PROJECT_DIR$/exercico6_3/exercico6_3.iml" />
     </modules>
   </component>
 </project>
